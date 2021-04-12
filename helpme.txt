@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+If you are having trouble, make sure to follow the following pieces of advice
+All text should be in lower case, except country codes
+
+Syntax:
+For any entry you can add an integer in the string to limit the results
+
+For any query you can add 'barplot' to generate a barplot after your query
+
+Choose at most one of the following:
+bars companies countries regions (default=bars)
+
+If you want bar information
+Choose at most one of the following: country, region (default=none)
+Choose at most one of the following: sell, source (default = sell)
+Choose at most one of the following: ratings, cocoa, number_of_bars (default = rating)
+Choose at most one of the following: top, bottom (default = top)
+
+If you want companies information
+Choose at most one of the following: country, region (default=none)
+Choose at most one of the following: ratings, cocoa, (default = rating)
+Choose at most one of the following: top, bottom (default = top)
+
+If you want countries information
+Choose at most one of the following: region (default=none)
+Choose at most one of the following: sell, source (default = sell)
+Choose at most one of the following: ratings, cocoa, number_of_bars (default = rating)
+Choose at most one of the following: top, bottom (default = top)
+
+If you want regions information
+Choose at most one of the following: sell, source (default = sell)
+Choose at most one of the following: ratings, cocoa, number_of_bars (default = rating)
+Choose at most one of the following: top, bottom (default = top)
+--------------------------------------------------------------------------------
