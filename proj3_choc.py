@@ -374,8 +374,8 @@ def bar_graph_maker(results,command):
     bar_data = graphy.Bar(x=x_values, y=y_values)
     basic_layout = graphy.Layout(title=f"Results: {command}")
     fig = graphy.Figure(data=bar_data, layout=basic_layout)
-    #fig.show() #just gives an error when i use it, always, so we will write to file and open instead
-    fig.write_html("bar.html", auto_open=True)
+    fig.show()
+    #fig.write_html("bar.html", auto_open=True) #Works better, in pratice than .show()
 
 #Implement interactive prompt and plotting.
 def interactive_prompt():
